@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the arithmetic operation: ");
+        System.out.println("Input: ");
         String operation = scanner.nextLine();
 
         CalculatorEngine calculatorEngine = new CalculatorEngine();
